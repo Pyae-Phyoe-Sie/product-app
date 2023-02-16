@@ -19,6 +19,8 @@ php artisan migrate
 php artisan passport:install --force
 
 
-import postman and can test
+import postman and can test, local variable are already set up just choose local at env variable in postman
+
 file location
-/postman/
+
+/postman/Product API.postman_collection.json
