@@ -22,7 +22,7 @@ class CategoryController extends Controller
      */
     public function index($id)
     {
-        $category = Category::where("delete_flag", false)find($id);
+        $category = Category::where("delete_flag", false)->find($id);
         if (!empty($category)) {
             $category->user;
             $category->products;
